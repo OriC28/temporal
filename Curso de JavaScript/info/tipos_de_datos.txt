@@ -1,0 +1,9 @@
+Formas de declarar una variabla:
+	1. Utilizando "var": Específica que estamos declarando una variable
+						sin indicar el tipo de dato.
+	2. Utilizando "let": Específica que estamos declarando una variable y
+						su uso estará limitado en cierta estructura o bloque
+						de código.
+	3. Utilizando "const": Específica que estamos declarando una variable,
+						al igual que con "let", sólo se utiliza en cierta
+						parte del código y además su valor es inmutable.
