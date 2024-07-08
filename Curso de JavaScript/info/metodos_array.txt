@@ -1,0 +1,61 @@
+﻿
+#-#-#-#-#-#-#-#-#-MÉTODOS TRANSFORMADORES-#-#-#-#-#-#-#-#-#-#
+
+#pop : Elimina el último elemento de un array y lo muestra.
+
+#shift : Elimina el primer elemento de un array y lo muestra.
+
+#push: Agregar un elemento al array al fina del mismo.
+
+#reverse: Inverte el orden de los elementos de un array.
+
+#sort: Ordena el array lexicográficamente.
+
+#splice: Elimina uno o un rango de elementos determinado y además da la posibilidad de reemplazar lo eliminado por otros valores:
+
+#Ejemplo:
+
+let nombres = ["José", "María", "Daniel"];
+nombres.splice(0,2,"Jhon");
+
+document.write(nombres + "<br>");
+
+###############SALIDA##################
+<<Jhon, Daniel
+
+#-#-#-#-#-#-#-#-#-#-MÉTODOS ACCESORES-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+#join: Convierte un array en una cadena de texto y permite asignar un separador.
+
+#slice: Muestra los elementos desde un rango determinado (no se incluye el elemento del valor final):
+
+#Ejemplo:
+
+let nombres = ["José", "Ana","Pedro","Lucas"];
+let resultado = nombres.slice(0,3);
+document.write(resultado);
+
+###############SALIDA##################
+>>José, Ana, Pedro
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-MÉTODOS DE REPETICIÓN-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+#filter: Crea un nuevo array con todos los elementos que cumplan la condición.
+
+#Ejemplo:
+
+#forEach: Ejecuta la función indicada una vez por cada elemento del array.
+
+#Ejemplo:
+
+const saludar = (nombre) =>{
+	document.write("Hola " + nombre + " ¿Qué tal? <br>");
+}
+let nombres = ["José", "Ana","Pedro","Lucas"];
+let resultado = nombres.forEach(saludar);
+
+###############SALIDA##################
+>>Hola José ¿Qué tal?
+>>Hola Ana ¿Qué tal?
+>>Hola Pedro ¿Qué tal?
+>>Hola Lucas ¿Qué tal?

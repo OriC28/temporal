@@ -1,0 +1,7 @@
+Métodos para Definir, Obtener y Eliminar atributos:
+
+#setAttribute(): Modifica el valor de un atributo.
+
+#getAttribute(): Obtiene el valor de un atributo.
+
+#removeAttribute(): Remueve el valor de un atributo.

@@ -1,0 +1,13 @@
+Tipos de nodos:
+
+#Document: Es el nodo raíz, a partir del cual derivan el resto de los nodos.
+
+#Element: Nodos definidos por etiquetas HTML.
+
+#Text: El texto dentro de un nodo Element se considera un nodo hijo de tipo Text.
+
+#Attribute: Los atributos de las etiquetas definen nodos (Es información asociada al nodo de tipo Element).
+
+#Comentarios y otros: Los comentarios y otros elementos como las declaraciones doctype en cabecera de los
+documentos HTML generan nodos.
+

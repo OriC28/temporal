@@ -1,0 +1,7 @@
+Obtención y Modificación de elementos:
+
+#textContent: Devuelve el texto de cualquier nodo.
+
+#innertHTML: Devuelve el contenido HTML de un elemento.
+
+#outerHTML: Devuelve el código HTML completo del elemento.

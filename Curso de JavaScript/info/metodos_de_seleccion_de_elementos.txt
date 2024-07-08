@@ -1,0 +1,11 @@
+Document - Métodos de selección de elementos:
+
+#getElementById(): Selecciona un elemento por ID.
+
+#getElementsByTagName(): Selecciona todos los elementos que coincidan con el nombre de la
+etiqueta especificada.
+
+#querySelector(): Devuelve el primer elemento que coincida con el grupo especificado de selectores.
+
+#querySelectorAll(): Devuelve todos los elementos que coincidan con el grupo especificado de selectores.
+
