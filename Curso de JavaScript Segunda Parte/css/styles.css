@@ -1,0 +1,16 @@
+.external-container{
+    background: red;
+    padding: 30px;
+}
+
+.internal-container{
+    background: blue;
+    padding: 20px;
+}
+
+.input{
+    border: 1px solid #0000;
+    border-radius: 5px;
+    padding: 6px;
+    color: #444;
+}
