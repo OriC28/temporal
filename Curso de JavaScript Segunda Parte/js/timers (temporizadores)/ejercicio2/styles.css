@@ -1,0 +1,53 @@
+body{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #000;
+}
+
+.grid-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #2b5da9;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-auto-rows: 50px;
+    margin-bottom: 50px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+}
+.grid-container .grid-item{
+    padding: 10px;
+    border: 2px solid #2b5da9;
+    margin: 5px;
+}
+.button-confirm{
+    margin: auto;
+    padding: 10px;
+    background:rgb(47, 146, 252);
+    color: #fff;
+    border: 2px solid rgb(12, 118, 176);
+    font-weight: bold;
+}
+
+.button-confirm:hover{
+    background:rgb(43, 93, 169);
+    color: #d5d5d5;
+}
+
+.button-confirm:disabled {
+    background-color: #fff;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+
+select {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
