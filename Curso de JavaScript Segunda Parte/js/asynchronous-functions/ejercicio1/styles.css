@@ -1,0 +1,31 @@
+body{
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+.materias-container{
+    width: 90%;
+    background: #efefef;
+    box-sizing: border-box;
+}
+
+.materia-unidad{
+    background: #ccc;
+    display: flex;
+}
+.materia-unidad div{
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.materia-unidad .nota{
+    flex-basis: 20px;
+    background: #efefef;
+}
+
+.materia-unidad .nombre{
+    flex-grow: 1;
+
+}

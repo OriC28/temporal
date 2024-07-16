@@ -1,0 +1,7 @@
+{
+    "Nombre": "Manuel",
+    "Apellido": "Martínez",
+    "Edad": "25",
+    "Ciudad": "París"
+
+}

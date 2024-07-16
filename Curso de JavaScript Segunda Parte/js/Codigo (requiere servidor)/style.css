@@ -1,0 +1,48 @@
+body{
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+}
+
+#show{
+    font-size: 40px;
+    margin: 20px;
+    background: rgb(26, 93, 200);
+    border: 2px solid rgb(25, 55, 99);
+    color: #fff;
+}
+
+#show:hover{
+    background: rgb(25, 55, 99);
+    border: 2px solid rgb(15, 31, 54);
+    color: #cecbcb;
+}
+
+#data{
+    font-size: 40px;
+    margin: 20px;
+    background: rgb(48, 192, 77);
+    border: 2px solid rgb(24, 135, 14);
+    color: #fff;
+}
+
+#data:hover{
+    background: rgb(24, 137, 27);
+    border: 2px solid rgb(26, 65, 4);
+    color: #cecbcb;
+}
+
+.result{
+    font-size: 40px;
+    background:rgb(15, 31, 54);
+    color: #fff;
+    padding: 10px;
+}
+
+.result-data{
+    font-size: 40px;
+    background:rgb(114, 121, 132);
+    color: #ffffff;
+    padding: 10px;
+}

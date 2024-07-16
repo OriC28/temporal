@@ -1,0 +1,101 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notes-form{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    width: 88%;
+    margin: 45px 6%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgb(75, 75, 107);
+    box-shadow: 0 0 3px  #000;
+}
+
+fieldset{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    background: rgb(131, 131, 162);
+    padding: 25px;
+    border: none;
+    margin-left: 35px;
+    box-shadow: 0 0 3px  #000;
+}
+
+legend{
+    margin-top: 15px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#studiant-note-1, #studiant-note-2,
+#studiant-note-3{
+    width: 60%;
+    padding: 3px;
+    margin-left: 4px;
+}
+
+#button{
+    padding: 4px 10px;
+    background: rgb(74, 168, 74);
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#button:hover{
+    background: rgb(46, 116, 46);
+}
+
+.modal-container{
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: none;
+}
+.modal{
+    background: #fff;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.nota{
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity:0;
+        display: flex;
+    }
+    100% {
+        opacity: 1;
+        display: flex;
+    }
+}
+
+.green{
+    color: green;
+    font-weight: bold;
+}
+.red{
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+}
+.gray{
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+}
