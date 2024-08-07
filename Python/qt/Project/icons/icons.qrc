@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>expand.svg</file>
+  </qresource>
+</RCC>

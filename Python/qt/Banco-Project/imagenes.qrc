@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="xy">
+    <file>banesco.png</file>
+  </qresource>
+</RCC>
