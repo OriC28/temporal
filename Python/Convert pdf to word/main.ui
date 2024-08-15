@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>373</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Convert pdf to docx</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>image/logo.png</normaloff>image/logo.png</iconset>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>291</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font-size: 13px;
+font-weight: 500;
+color: #C80036;
+</string>
+      </property>
+      <property name="text">
+       <string>File selected: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton1">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#QPushButton,#pushButton1 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 10px;
+	border-radius: 6px;	
+	border-color: #0b7dda
+}
+
+#pushButton1{
+	background-color: #000;
+}
+#pushButton1:hover{
+	background-color: #2F3645;
+}
+
+
+</string>
+      </property>
+      <property name="text">
+       <string>Select a file</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton2">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#QPushButton,#pushButton2 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 10px;
+	border-radius: 6px;	
+	border-color: #0b7dda;
+}
+
+
+#pushButton2{
+	background-color: #007bff;
+}
+
+#pushButton2:hover{
+	background-color: #0b7dda;
+}
+
+
+</string>
+      </property>
+      <property name="text">
+       <string>Convert</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="logo">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>241</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>image/image.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
