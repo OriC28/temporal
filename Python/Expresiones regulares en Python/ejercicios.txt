@@ -1,0 +1,14 @@
+Validar una dirección de correo electrónico: Escribe una expresión regular que valide si un string es una dirección de correo electrónico válida (e.g., "nombre@dominio.com").
+
+Encontrar fechas en formato DD/MM/AAAA: Escribe una expresión regular para identificar todas las fechas en formato DD/MM/AAAA dentro de un texto.
+
+Extraer números de teléfono: Crea una expresión regular para extraer todos los números de teléfono que estén en el formato (XXX) XXX-XXXX de un texto.
+
+Validar un número de tarjeta de crédito: Escribe una expresión regular que verifique si un string es un número de tarjeta de crédito válido (16 dígitos agrupados en 4 bloques
+separados por un guion o un espacio).
+
+Identificar palabras que empiezan con una letra mayúscula: Crea una expresión regular para encontrar todas las palabras que comienzan con una letra mayúscula en un texto.
+
+Extraer direcciones IP: Escribe una expresión regular para extraer todas las direcciones IP válidas (en formato XXX.XXX.XXX.XXX) de un texto.
+
+Validar contraseñas: Crea una expresión regular que valide contraseñas que tengan al menos 8 caracteres, incluyendo al menos una letra mayúscula, una minúscula, un número y un carácter especial.
