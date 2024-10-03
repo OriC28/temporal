@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>262</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_title_select_movie">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>11</y>
+     <width>271</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 20px;
+font-weight: 600;
+font-family: sans-serif;</string>
+   </property>
+   <property name="text">
+    <string>RATING MOVIE</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>54</y>
+     <width>301</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="verticalSpacing">
+     <number>15</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label1">
+      <property name="styleSheet">
+       <string notr="true">font-size: 15px;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Movie selected</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_movie">
+      <property name="styleSheet">
+       <string notr="true">font-size: 15px;</string>
+      </property>
+      <property name="text">
+       <string>Titulo de película</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="labe2">
+      <property name="styleSheet">
+       <string notr="true">font-size: 15px;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Rate between 0 and 10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLineEdit" name="rate_entry"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="btn_rate_movie_seen">
+      <property name="styleSheet">
+       <string notr="true">font-size: 15px;
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Rate this movie!</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
